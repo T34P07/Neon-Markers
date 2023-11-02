@@ -142,6 +142,7 @@ function createMarker(x, y, z, theType, size, r, g, b, a, r2, g2, b2, a2, proper
     local size = size or 4.0
     local marker = createObject(theType == "cylinder" and 1317 or theType == "checkpoint" and 1317 or theType == "ring" and 1316 or theType == "arrow" and 1559 or 2614, x, y, z)
     local data = {}
+    
     data.theType = theType
     data.properties = properties or defaultProperties[theType]
     data.shader = dxCreateShader("files/shaders/shader.fx", data.properties, 0, 0, true, "object")
@@ -192,6 +193,7 @@ end
 function setMarkerTarget(theMarker, x, y, z)
     local data = markers[theMarker]
     if not data then return end
+    
     local element = data.icon and data.icon or theMarker
     local rx, ry, rz = getElementPosition(element)
     local yaw, pitch = findRotation3D(rx, ry, rz, x, y, z + (data.offsetZ or 0))
@@ -262,6 +264,7 @@ end
 addEventHandler( "onClientElementDestroy", root, function()
     if streaming[source] and getElementType(source) == "object" then
         local data = markers[source]
+            
         if data and isElement(data.shader) then
             destroyElement(data.shader)
             streaming[source] = false

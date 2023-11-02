@@ -13,26 +13,26 @@ A shader that makes markers prettier!
 - createMarker
 createMarker(int x, int y, int z, string theType, int size = 1, int r, int g, int b, int a, int r2, int g2, int b2, int a2, table properties = defaultProperties): object
 
--setMarkerIcon
+- setMarkerIcon
 setMarkerIcon(object theMarker, string icon, int offsetZ, int size, int r, int g, int b, int a, int r2, int g2, int b2, int a2): object
 
--setMarkerTarget
+- setMarkerTarget
 setMarkerTarget(object theMarker, int x, int y, int z)
 
--getMarkerTarget
+- getMarkerTarget
 getMarkerTarget(object theMarker): int x, int y, int z
 
--setMarkerColor
+- setMarkerColor
 setMarkerColor(object theMarker, int r, int g, int b, int a, int r2, int g2, int b2, int a2)
 
--getMarkerType
+- getMarkerType
 getMarkerType(object theMarker): string
 
--getMarkerIcon
+- getMarkerIcon
 getMarkerIcon(object theMarker): string
 
--setMarkerSize
+- setMarkerSize
 setMarkerSize(object theMarker, int size)
 
--getMarkerSize
+- getMarkerSize
 getMarkerSize(object theMarker): int

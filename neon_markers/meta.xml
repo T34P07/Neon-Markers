@@ -1,0 +1,27 @@
+<meta>
+    <info author = "T34P07 and Rick" version = "1.0" name = "Neon Markers" description = "A shader that makes markers prettier!" type = "script" />
+
+    <script src = "client.lua" type = "client" cache = "false" />
+    <script src = "test.lua" type = "client" cache = "false" />
+
+    <file src = "files/shaders/shader.fx" type = "client" cache = "false" />
+    <file src = "files/shaders/mta-helper.fx" type = "client" cache = "false" />
+
+    <file src = "files/textures/marker.txd" cache = "false" />
+    <file src = "files/models/cylinder.dff" cache = "false" />
+    <file src = "files/models/diamond.dff" cache = "false" />
+    <file src = "files/models/hoop.dff" cache = "false" />
+    <file src = "files/models/finish.dff" cache = "false" />
+
+    <export function = "createMarker" type = "client" />
+    <export function = "getMarkerColor" type = "client" />
+    <export function = "getMarkerCount" type = "client" />
+    <export function = "getMarkerIcon" type = "client" />
+    <export function = "getMarkerSize" type = "client" />
+    <export function = "getMarkerTarget" type = "client" />
+    <export function = "getMarkerType" type = "client" />
+    <export function = "setMarkerColor" type = "client" />
+    <export function = "setMarkerIcon" type = "client" />
+    <export function = "setMarkerSize" type = "client" />
+    <export function = "setMarkerTarget" type = "client" />
+</meta>

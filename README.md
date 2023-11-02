@@ -10,29 +10,20 @@ A shader that makes markers prettier!
 2. Place the resource in your server resources folder.
 
 # Documentation
-- createMarker
-createMarker(int x, int y, int z, string theType, int size = 1, int r, int g, int b, int a, int r2, int g2, int b2, int a2, table properties = defaultProperties): object
+- createMarker(int x, int y, int z, string theType, int size = 1, int r, int g, int b, int a, int r2, int g2, int b2, int a2, table properties = defaultProperties): object
 
-- setMarkerIcon
-setMarkerIcon(object theMarker, string icon, int offsetZ, int size, int r, int g, int b, int a, int r2, int g2, int b2, int a2): object
+- setMarkerIcon(object theMarker, string icon, int offsetZ, int size, int r, int g, int b, int a, int r2, int g2, int b2, int a2): object
 
-- setMarkerTarget
-setMarkerTarget(object theMarker, int x, int y, int z)
+- setMarkerTarget(object theMarker, int x, int y, int z)
 
-- getMarkerTarget
-getMarkerTarget(object theMarker): int x, int y, int z
+- getMarkerTarget(object theMarker): int x, int y, int z
 
-- setMarkerColor
-setMarkerColor(object theMarker, int r, int g, int b, int a, int r2, int g2, int b2, int a2)
+- setMarkerColor(object theMarker, int r, int g, int b, int a, int r2, int g2, int b2, int a2)
 
-- getMarkerType
-getMarkerType(object theMarker): string
+- getMarkerType(object theMarker): string
 
-- getMarkerIcon
-getMarkerIcon(object theMarker): string
+- getMarkerIcon(object theMarker): string
 
-- setMarkerSize
-setMarkerSize(object theMarker, int size)
+- setMarkerSize(object theMarker, int size)
 
-- getMarkerSize
-getMarkerSize(object theMarker): int
+- getMarkerSize(object theMarker): int

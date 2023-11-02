@@ -1,4 +1,4 @@
-# Neon-Markers
+# Neon Markers
 A shader that makes markers prettier!
 - Showcase: https://youtu.be/n7uLJ3cH6oE?si=yxaE_EoDksXAicIx
 

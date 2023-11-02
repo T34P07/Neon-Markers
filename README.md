@@ -1,6 +1,6 @@
 # Neon-Markers
 A shader that makes markers prettier!
-Showcase: https://youtu.be/n7uLJ3cH6oE?si=yxaE_EoDksXAicIx
+- Showcase: https://youtu.be/n7uLJ3cH6oE?si=yxaE_EoDksXAicIx
 
 # Authors
 - [T34P07](https://github.com/T34P07)

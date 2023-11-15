@@ -141,6 +141,11 @@ end
 function createMarker(x, y, z, theType, size, r, g, b, a, r2, g2, b2, a2, properties)
     local size = size or 4.0
     local marker = createObject(theType == "cylinder" and 1317 or theType == "checkpoint" and 1317 or theType == "ring" and 1316 or theType == "arrow" and 1559 or 2614, x, y, z)
+
+    if sourceResource then
+        setElementParent(marker, getResourceDynamicElementRoot(sourceResource))
+    end
+    
     local data = {}
     
     data.theType = theType
